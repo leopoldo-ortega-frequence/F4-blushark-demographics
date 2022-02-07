@@ -1,0 +1,120 @@
+{
+    "circleData" : [
+        
+        {   "name":"age",
+            "range": "18-62",
+            "total": 56
+        },
+        
+        {   "name":"gender",
+            "range": "ALL",
+            "total": 100
+        },
+      
+        {   "name":  "income",
+            "range": "50k - 150k",
+            "total": 48
+        },
+       
+        {   "name": "parenting",
+            "range": "ALL",
+            "total": 100
+        },
+       
+        {   "name": "education",
+            "range": "ALL",
+            "total": 100
+        }
+    ],
+    "graphData" : [
+        {
+        "people" :[
+            {
+                "name": "18-24",
+                "value": 20
+            },
+            {
+                "name": "19-24",
+                "value": 10
+            },
+            {
+                "name": "25-34",
+                "value": 20
+            },
+            {
+                "name": "35-44",
+                "value": 10
+            },
+            {
+                "name": "45-54",
+                "value": 10
+            },
+            {
+                "name": "55-64",
+                "value": 10
+            },
+            {
+                "name": "65+",
+                "value": 20
+            }
+        ]
+    },{
+        "gender":[
+            {
+                "name":"male",
+                "value":50
+            },
+            {
+                "name":"female",
+                "value":50
+            }
+        ]
+    },{
+        "income":[
+            {
+                "name": "0-50k",
+                "value": 20
+            },
+            {
+                "name": "50-100k",
+                "value": 20
+            },
+            {
+                "name": "100-150k",
+                "value": 20
+            },
+            {
+                "name": "150k+",
+                "value": 30
+            }
+        ]
+    },{
+        "family":[
+            {
+                "name":"No Kids",
+                "value":70
+            },
+            {
+                "name":"Kids",
+                "value":30
+            }
+        ]
+    },{
+        "education":[
+            {
+                "name": "No college",
+                "value": 40
+            },
+            {
+                "name": "undergrad",
+                "value": 20
+            },
+            {
+                "name": "grad school",
+                "value": 40
+            }
+        ]
+    }
+    ]
+
+}
