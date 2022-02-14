@@ -95,12 +95,13 @@ export const circleGraph = (selector, data) => {
 
   // draws the graph onto the screen
   const render = (d) => {
+    console.log(d);
     d.forEach((d, i) => {
       const circleG = circleGraphG.append("g");
       //circleG.attr("transform", `translate(${i * 40},${i * 40})`);
       const values = [];
-      values.push(d.total);
-      values.push(100 - d.total);
+      values.push(d.value);
+      values.push(100 - d.value);
 
       const pie = d3.pie();
 
